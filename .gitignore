@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+lstm_env/
+venv/
+.venv/
+env/
+ENV/
+
+# Datasets (Large CSV files)
+data/raw/
+data/processed/
+*.csv.gz
+*.csv.zip
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+.env.*
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
